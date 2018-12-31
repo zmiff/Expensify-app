@@ -59,3 +59,22 @@ use: CSSExtract.extract({
     }
   ]
 })
+
+@@ express server.
+- first make the server/server.js file with app.use(express.static(publicPath));
+app.get('\*', (req, res) => { //!dont type the \ before asterix
+  res. sendFile(path.join(publicPath, 'index.html')); to solve page refresh issue
+});
+-- then run production build
+-- then run node server/server.js
+
+@@ heroku
+--install Heroku CLI
+-- from CLI
+-- type: heroku login
+-- type: heroku create app-name (appname must be unique)
+-- in json.paskage add start script and postbuild
+  --"start": "node server/server.js"
+  --"heroku-postbuild": "npm/yarn run build:prod"
+-- setup dynamic env port const port = process.env.PORT || 3000;
+-- add the budnle and css files created by webpack to .gitignore
