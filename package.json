@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "UGT",
   "license": "MIT",
+  "engines": {
+    "node": "10.14.2"
+  },
   "scripts": {
     "serve": "live-server public/",
     "build": "webpack",
