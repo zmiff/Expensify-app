@@ -7,7 +7,6 @@ exports[`should show expense list item 1`] = `
     to="/edit/1"
   >
     <h3>
-      help 
       Gum
     </h3>
   </Link>
