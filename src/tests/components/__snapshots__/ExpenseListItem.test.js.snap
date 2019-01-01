@@ -7,13 +7,14 @@ exports[`should show expense list item 1`] = `
     to="/edit/1"
   >
     <h3>
+      help 
       Gum
     </h3>
   </Link>
   <p>
-    195
-     - 
-    0
+    1.95kr 
+    -
+     01-01-1970
   </p>
 </div>
 `;

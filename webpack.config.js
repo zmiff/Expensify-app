@@ -46,11 +46,11 @@ module.exports = (env) => {
      plugins: [
        CSSExtract
      ],
-     devtool : isProduction ? 'source-map' : 'inline-source-map',
+     devtool: isProduction ? 'source-map' : 'inline-source-map',
      devServer: {
        contentBase: path.join(__dirname, 'public'),
        historyApiFallback: true,
-       publicPath: 'dist'
+       publicPath: '/dist/'
      }
   }
 }

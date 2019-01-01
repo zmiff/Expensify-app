@@ -3,6 +3,8 @@
 git init - Create a new git repo
 git status - View the changes to your project
 git add - Add files to staging area
+git add . - add all files
+git add -a - add all modified flags
 git commit - Creates a new ccommit with files from staging area
 git log - View recent commits
 
@@ -86,3 +88,5 @@ app.get('\*', (req, res) => { //!dont type the \ before asterix
 
 @@ DEV DEPENCIES
 -- npm i module-name --save-dev
+
+@@ NEW FEATURE WORFLOW
