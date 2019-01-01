@@ -18,10 +18,12 @@ git remote add: - git remote add origin https://github.com/zmiff/Expensify-app.g
 firt push: - git push -u origin master
 
 @ production webpack
-add script on package.json "build:prod": "webpack -p --env production/development"
-put all the stuff on webpack config in a (env) => {/here/} arrow function
-add this -  const isPorduction = env === 'production';
-and this - devtool : isProduction ? 'source-map' : 'cheap-module-eval-source-map'
+-- make new /dist folder public folder. change output in webpack.config in. devserver add: publicPath: 'dist'
+--add script on package.json "build:prod": "webpack -p --env production/development"
+-- put all the stuff on webpack config in a (env) => {/here/} arrow function
+-- add this -  const isPorduction = env === 'production';
+-- and this - devtool : isProduction ? 'source-map' : 'cheap-module-eval-source-map'
+
 
 @ Seperate CSS files
 npm install extract-text-webpack-plugin
@@ -80,3 +82,7 @@ app.get('\*', (req, res) => { //!dont type the \ before asterix
 -- add the budnle and css files created by webpack to .gitignore
 -- git push + git push heroku master
 -- heroku open
+-- heroku logs
+
+@@ DEV DEPENCIES
+-- npm i module-name --save-dev
