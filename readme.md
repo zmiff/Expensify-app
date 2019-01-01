@@ -78,3 +78,5 @@ app.get('\*', (req, res) => { //!dont type the \ before asterix
   --"heroku-postbuild": "npm/yarn run build:prod"
 -- setup dynamic env port const port = process.env.PORT || 3000;
 -- add the budnle and css files created by webpack to .gitignore
+-- git push + git push heroku master
+-- heroku open
