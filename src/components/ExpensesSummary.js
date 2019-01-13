@@ -26,7 +26,7 @@ export const ExpensesSummary = ({expensesCount, expensesTotal, totalExpensesCoun
 
 const mapStateToProps = (state) => {
     let expenses = selectExpenses(state.expenses, state.filters);
-    let totalExpenses = selectExpenses(state.expenses, {text: '',sortBy: 'date',startDate: 0, endDate: 2547410201} )
+    let totalExpenses = state.expenses
   return {
     expensesCount: expenses.length,
     totalExpensesCount: totalExpenses.length,

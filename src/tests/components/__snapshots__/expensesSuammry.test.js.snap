@@ -21,6 +21,15 @@ exports[`should correctly render ExpensesSummary with 1 expense 1`] = `
         99.99kr 
       </span>
     </h1>
+    <p
+      className="page-header__under--title"
+    >
+      Total 
+       
+      expenses
+       totaling:
+      0.00kr 
+    </p>
     <div
       className="page-header__actions"
     >
@@ -57,6 +66,15 @@ exports[`should correctly render ExpensesSummary with 1 expense 2`] = `
         50.00kr 
       </span>
     </h1>
+    <p
+      className="page-header__under--title"
+    >
+      Total 
+       
+      expenses
+       totaling:
+      0.00kr 
+    </p>
     <div
       className="page-header__actions"
     >
