@@ -37,5 +37,23 @@ exports[`should render editExpengePage correctly 1`] = `
       Remove Expense
     </button>
   </div>
+  <div>
+    <Connect(DeleteModal)
+      expense={
+        Object {
+          "amount": 195,
+          "createdAt": 0,
+          "description": "Gum",
+          "id": "1",
+          "note": "",
+        }
+      }
+      history={
+        Object {
+          "push": [MockFunction],
+        }
+      }
+    />
+  </div>
 </div>
 `;

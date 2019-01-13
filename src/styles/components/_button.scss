@@ -16,6 +16,11 @@
   background-color: $light-grey;
 }
 
+.button--danger {
+  @extend .button;
+  background-color: red;
+}
+
 .button--link {
   background: none;
 }

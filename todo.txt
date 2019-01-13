@@ -1,0 +1,10 @@
+
+
+
+1 Add confirmation modal when removing expenses (use react-modal) OK
+
+2 show number of hidden expenses in dashboard summary
+
+3 add support for another social login system (Github, facebook, twitter, local)
+
+4 buy a custom domain and configure it with heroku (or use subdomain on domain you own)
